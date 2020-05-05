@@ -1,13 +1,10 @@
 
-* {
-
-}
-
 body {
     background-image: url(wallpaper.jpg);
+    background-attachment: fixed;
     background-color: rgb(231, 230, 230);
     font-family: 'Ubuntu', sans-serif;
-    margin: 65px;
+    margin: 50px 85px 85px 85px;
 }
 
 /*------------------------------------
@@ -20,7 +17,7 @@ nav {
     align-items: center;
 
     background-color: rgb(107, 107, 104);
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     color: white;
 }
 
@@ -44,11 +41,7 @@ li {
     display: inline;
 }
 
-li>a {
-    color: white;
-}
-
-li>a:visited {
+li>a, li>a:visited {
     color: white;
 }
 
@@ -108,10 +101,10 @@ footer {
     display: flex;
     justify-content: space-between;
 
-    border-radius: 0px 0px 6px 6px;
+    border-radius: 0px 0px 10px 10px;
     background-color: rgb(107, 107, 104);
     color: white;
-    padding: 40px 55px 50px 55px;
+    padding: 20px 55px 50px 55px;
     margin-top: 0px;
 }
 
