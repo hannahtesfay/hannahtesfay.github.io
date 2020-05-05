@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Asmara Tours</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+        <meta charset="UTF-8">
+        <script>
+            function clicked(e) {
+                return confirm('Thank you!');
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav>
+            <h1 class="mainHeading">Asmara Tours</h1>
+            <img src="emblem.png" class="emblem">
+            <ul>
+                <li><strong>Home</strong> /</li>
+                <li><a href="index2.html"><strong>Pricing</strong></a> /</li>
+                <li><a href="index3.html"><strong>Testimonials</strong></a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <div class="company_description">
+                <h1 class="discover">Discover a lively Art Deco city...</h1>
+                <p>This magnificent city which prides itself on a number of historic buildings of ancient neo-Romanesque architecture is praised for its peaceful yet fun atmosphere. Step into its wide-treed boulevards to discover a hidden gem.</p>
+                    
+                <p>Under the care of Asmara Tours, you will meet like-minded travellers, comprehensively explore the city and gain priceless memories to share!</p>
+            </div>
+
+            <div class="company_gallery">
+                <img src="Asmara.jpg" class="asmara1 asmimg"/>
+                <img src="Asmara-2.jpeg" class="asmara2 asmimg"/>
+                <img src="Asmara-3.jpg" class="asmara3 asmimg"/>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="contact_info"><h3>Contact us 💬<br/>
+                <span class="contactText">Drop us a line at <a href="mailto:team@asmaratours.com">team@asmaratours.com</a></span></h3><div class="sns_logos">
+                    <a href="https://www.instagram.com/" target="_blank"><i class= "fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class= "fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class= "fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="newsletter"><h3>Sign up to our newsletter 📩<br/>
+                <span class="newsletterText">We'll keep you updated with all our latest promotions - no spam!</span></h3>
+                <div id="newsletter_form">
+                    <form id="newsletter_subscribe" method="POST">
+                        <input type="text" placeholder="Your name" name="name" id="name" required="required"/>
+                        <input type="email" placeholder="Your email address" name="email" id="email" data-validate="validate (required, email)" required="required">
+                        <button type="submit" id="submit" onclick="return clicked();">submit!</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

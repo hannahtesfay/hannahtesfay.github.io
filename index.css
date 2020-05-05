@@ -1,0 +1,277 @@
+
+* {
+
+}
+
+body {
+    background-image: url(wallpaper.jpg);
+    background-color: rgb(231, 230, 230);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 65px;
+}
+
+/*------------------------------------
+Navigation
+-------------------------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(107, 107, 104);
+    border-radius: 6px 6px 0px 0px;
+    color: white;
+}
+
+.emblem {
+    padding: 15px 0px 15px 0px !important;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.mainHeading {
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+li>a {
+    color: white;
+}
+
+li>a:visited {
+    color: white;
+}
+
+li>a:hover {
+    color:rgb(230, 198, 22)
+}
+
+/*------------------------------------
+Main body
+------------------------------------*/
+
+.content {
+    display: flex;
+        
+    margin-top: 0px;
+    border-radius: 2px;
+}
+
+.discover {
+    color: rgb(189, 161, 4);
+}
+
+.company_description {
+    background-color: beige;
+    width: 42%;
+    padding: 50px;
+}
+
+.company_gallery {
+    display: flex;
+
+    background-color: white;
+    width: 58%;
+}
+
+.asmimg {
+    width: 200px;
+    height: 350px;
+}
+
+.asmara1, .asmara2, .asmara3 {
+    flex: 1; 
+    opacity: 0.8;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.asmara1:hover, .asmara2:hover, .asmara3:hover {
+    opacity: 1;
+}
+
+/*------------------------------------
+Footer
+------------------------------------*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 0px 0px 6px 6px;
+    background-color: rgb(107, 107, 104);
+    color: white;
+    padding: 40px 55px 50px 55px;
+    margin-top: 0px;
+}
+
+.newsletterText, .contactText {
+    font-size: 75%;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.contactText>a {
+    color:white;
+    font-weight: bold;
+}
+
+.contactText>a:hover {
+    color: rgb(230, 198, 22);
+}
+
+.sns_logos {
+    margin-top: 0px;
+}
+
+.fa {
+    color: white;
+    padding: 0px 10px 0px 0px;
+    font-size: 40px !important;
+}
+
+.fa:hover {
+    cursor: pointer;
+    color: rgb(230, 198, 22);
+}
+
+input {
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 0px;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 3px;
+    background-color: rgb(230, 198, 22);
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(230, 198, 22);
+}
+
+/*---------------------------------------
+Pricing
+----------------------------------------*/
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+        
+    margin-top: 0px;
+    border-radius: 2px;
+    padding: 50px;
+    background-color: beige;
+    text-align: justify;
+    height: 250px;
+}
+
+.tier1, .tier2, .tier3 {
+    border: solid lightgray 3px;
+    padding: 5px 15px 20px 15px;
+    width: 33.33%;
+}
+
+.tier1, .tier2 {
+    padding-right: 20px;
+    border-right: 0px;
+}
+
+.tier1>h2, .tier2>h2, .tier3>h2,
+.tier1>h3, .tier2>h3, .tier3>h3 {
+    text-align: center;
+}
+
+.bonus {
+    font-weight: bold;
+    color: red;
+}
+
+.bonus1 {
+    font-size: 90%;
+}
+
+.cost {
+    color: rgb(143, 143, 143);
+}
+
+
+/*---------------------------------------
+Testimonials
+----------------------------------------*/
+
+.content3 {
+    display: flex;
+    height: 350px;
+}
+
+.testimonial {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 2px;
+    padding: 50px;
+    background-color: beige;
+    text-align: justify;
+    height: 250px;
+}
+
+.testimonialPhoto {
+    background-color: cream;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+.testi {
+    height: 350px;
+    width: 650px;
+    flex: 1;
+    opacity: 0.8;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.testi:hover {
+    opacity: 1;
+}
+
+.location {
+    color: rgb(143, 143, 143);
+}
+
+.testimonial>a {
+    font-weight: bold;
+    color: black;
+}
+
+.testimonial>a:visited {
+    color: black;
+}
+
+.testimonial {
+    width: 50%;
+}
+
+a:hover {
+    color:rgb(230, 198, 22) !important;
+}
+

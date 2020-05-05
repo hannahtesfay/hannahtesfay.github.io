@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Asmara Tours</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <script>
+            function clicked(e) {
+                return confirm('Thank you!');
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav>
+            <h1 class="mainHeading">Asmara Tours</h1>
+            <img src="emblem.png" class="emblem">
+            <ul>
+                <li><a href="index.html"><strong>Home</strong></a> /</li>
+                <li><a href="index2.html"><strong>Pricing</strong></a> /</li>
+                <li><strong>Testimonials</strong></li>
+            </ul>
+        </nav>
+
+        <section class="content3">
+            <div class="testimonial">
+                <h1>Roberto <span class="location">Viñales, Cuba 🇨🇺</span></h1>
+                <p>I am so happy that I booked with Asmara Tours. They were very knowledgable and provided us with a jam-packed itinerary full of great food, culture, people and experiences. I chose the 11 day packing including a trip to Massawa and wow, what a beautiful place. This was a trip that I will never forget - so thank you Asmara Tours for everything.</p>
+                <a href="index3.html">← Back</a>
+            </div>
+
+            <div class="testimonialPhoto">
+                <img src="testi1.jpg" class="testi">
+            </div>
+        </section>
+
+        <footer>
+            <div class="contact_info"><h3>Contact us 💬<br/>
+                <span class="contactText">Drop us a line at <a href="mailto:team@asmaratours.com">team@asmaratours.com</a></span></h3><div class="sns_logos">
+                    <a href="https://www.instagram.com/" target="_blank"><i class= "fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class= "fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class= "fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="newsletter"><h3>Sign up to our newsletter 📩<br/>
+                <span class="newsletterText">We'll keep you updated with all our latest promotions - no spam!</span></h3>
+                <div id="newsletter_form">
+                    <form id="newsletter_subscribe" method="POST">
+                        <input type="text" placeholder="Your name" name="name" id="name" required="required"/>
+                        <input type="email" placeholder="Your email address" name="email" id="email" data-validate="validate (required, email)" required="required">
+                        <button type="submit" id="submit" onclick="return clicked();">submit!</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
